@@ -12,6 +12,11 @@
     },
     {
       "path": "./tsconfig.spec.json"
-    }
-]
+    },
+  ],
+  "compilerOptions": {
+    "typeRoots": [
+      "src/typings.d.ts"  
+    ]
+  }
 }
